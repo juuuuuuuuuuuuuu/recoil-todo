@@ -1,0 +1,30 @@
+{
+  "name": "recoil-todo",
+  "version": "1.0.0",
+  "description": "recoil을 사용한 투두 리스트입니다.",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juuuuuuuuuuuuuu/recoil-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juuuuuuuuuuuuuu/recoil-todo/issues"
+  },
+  "homepage": "https://github.com/juuuuuuuuuuuuuu/recoil-todo#readme",
+  "devDependencies": {
+    "@snowpack/plugin-webpack": "^2.3.0",
+    "snowpack": "3.0.11"
+  },
+  "dependencies": {
+    "@snowpack/plugin-react-refresh": "2.4.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "recoil": "0.1.2"
+  }
+}
